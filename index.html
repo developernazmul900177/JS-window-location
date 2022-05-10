@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="myButton()">Button</button>
+
+    <script>
+        console.log("My windows location href is :", window.location.href);
+        console.log("My windows loacation hostname is :", window.location.hostname);
+        console.log("My windows loaction host is :",window.location.host);
+        console.log("My windows loaction pathname is :",window.location.pathname);
+        console.log("My windows loaction protocol is :",window.location.protocol);
+        console.log("My windows loaction port is :",window.location.port);
+        
+        function myButton(){
+            window.location.assign('https://www.w3schools.com');
+        }
+    </script>
+</body>
+</html>
